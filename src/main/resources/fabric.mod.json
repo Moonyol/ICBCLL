@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "icbcll",
+	"version": "1.0.0",
+	"name": "ICBCLL",
+	"description": "Increases command block character length limit to 2,147,483,647 instead of the vanilla 32,500.",
+	"authors": [
+		"Moonyl"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/icbcll",
+		"issues": "https://github.com/Moonyol/ICBCLL/issues"
+	},
+	"license": "AGPL-3.0",
+	"icon": "assets/icbcll/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "net.icbcll.ICBCLL"
+		]
+	},
+	"mixins": [
+		"icbcll.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.10",
+		"minecraft": ">=1.18.0 <=1.20.1",
+		"java": ">=17"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

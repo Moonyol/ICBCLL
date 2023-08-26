@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"package": "net.icbcll.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"BetterCommandBlockUIMixin",
+		"CommandBlockEditScreenMixin",
+		"CommandIDEMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
